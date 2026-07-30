@@ -1,4 +1,4 @@
-# editable-ppt-workflow
+# lee-ppt-sheji
 
 一个用于 Codex 的可编辑 PPT 工作流技能，适合把文案、旧 PPT、截图、PDF 或品牌素材重新梳理为高质量、可追溯、可编辑的 PowerPoint 文件。
 
