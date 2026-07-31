@@ -1,4 +1,0 @@
-interface:
-  display_name: "可编辑PPT工作流"
-  short_description: "从文案或参考页面稳定交付高质量可编辑PPTX文档"
-  default_prompt: "使用 $editable-ppt-workflow 将我的文案或参考页面制作成高质量可编辑PPT。"

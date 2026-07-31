@@ -1,5 +1,5 @@
 ﻿---
-name: lee-ppt-zhushou
+name: lee-ppt-sheji-v1-1
 description: Use when creating editable PPTX decks with V1.1 demand typing, source parsing, style demos, page plans, layer options, and acceptance checks
 ---
 
