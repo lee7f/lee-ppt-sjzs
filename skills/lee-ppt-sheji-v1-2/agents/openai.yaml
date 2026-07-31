@@ -1,7 +1,0 @@
-interface:
-  display_name: "Lee PPT Sheji V1.2"
-  short_description: "分阶段制作可编辑 PPTX"
-  default_prompt: "Use $lee-ppt-sheji-v1-2 to create or optimize an editable PPTX with concise staged confirmations."
-
-policy:
-  allow_implicit_invocation: true
