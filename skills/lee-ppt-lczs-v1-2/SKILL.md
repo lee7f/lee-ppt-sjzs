@@ -11,6 +11,7 @@ description: 创建、重构或美化可编辑 PPTX。用于无资料引导、�
 
 - 先确认带真实文案的设计稿，再拆层制作 PPTX。
 - 资料之外的补全标注为“AI 规划”，不得虚构品牌、身份或联系方式。
+- 从项目资料读取到明确的使用者信息时，按使用者档案规范无感新建或补充；不覆盖冲突字段，实际更新后告知结果并附档案链接。
 - 少问、少选、少复述；能从资料确定的内容不再询问，低影响项采用默认值。
 - 输出简洁明确，只说明当前结果、实际产物、等待事项和下一步。
 - 需要用户确认时必须明确提示如何回复以及确认后执行什么，不得无提示停止。
@@ -28,7 +29,7 @@ description: 创建、重构或美化可编辑 PPTX。用于无资料引导、�
 5. [拆层](references/05-layering.md)
 6. [PPTX 交付](references/06-delivery.md)
 
-涉及字号、字形高度、坐标换算或还原校验时读取 [字号映射](references/typography-mapping.md)。发现企业、产品、Logo、IP 或品牌色时读取 [品牌档案](references/brand-profile.md)。发现演讲者、作者、联系人、个人照片或个人 IP 时读取 [使用者档案](references/presenter-profile.md)。延续同一项目时读取 [跨对话延续](references/07-continuation-prompts.md)。
+涉及字号、字形高度、坐标换算或还原校验时读取 [字号映射](references/typography-mapping.md)。发现企业、产品、Logo、IP 或品牌色时读取 [品牌档案](references/brand-profile.md)；若 `assets/private-brand/brand-manifest.yaml` 存在，同时读取同目录的 `brand-rules.md` 和清单。发现演讲者、作者、联系人、个人简介、个人照片或个人 IP 时读取 [使用者档案](references/presenter-profile.md)；阶段 1 第 5 问需要个人简介页且没有档案时读取 [个人信息问卷](references/presenter-questionnaire.md)；若 `assets/private-user/user-profile.yaml` 存在，同时读取同目录的 `user-rules.md` 和档案。延续同一项目时读取 [跨对话延续](references/07-continuation-prompts.md)。
 
 首次新建、重构或美化任务依次执行阶段 1 至阶段 6，不得合并或提前执行。用户已提供正式确认的整套设计稿、最终文案和明确拆层要求时，可快速进入阶段 5；但必须先确认设计稿为唯一视觉基准、页面比例、文案状态、封面封底和拆层方式，并使用 `presentations:Presentations` 将确认稿整理为 `04-设计稿.pptx`。
 
