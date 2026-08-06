@@ -1,0 +1,7 @@
+interface:
+  display_name: "lee-ppt-lczs-v1-2"
+  short_description: "分阶段规划、设计、拆层并交付可编辑 PPTX"
+  default_prompt: "Use $lee-ppt-lczs-v1-2 to create, restructure, or polish an editable PPTX."
+
+policy:
+  allow_implicit_invocation: true
